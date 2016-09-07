@@ -9,6 +9,7 @@ public class CalleeImpl {
 	}
 	public void foo(Integer i){
 		System.out.println( "integer parameter");
+		System.out.println("in int");
 	}
 	
 
