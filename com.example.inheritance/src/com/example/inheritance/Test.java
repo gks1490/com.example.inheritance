@@ -9,12 +9,7 @@ public class Test {
 		System.out.println("Object args");
 	}
 	
-	public void m1(){
-		System.err.println("m1()");
-	}
 	public static void main(String[] args) {
-		
-		// added second comment
 		Test t = new Test();
 		t.methodOne(new Object());
 		t.methodOne("Bhaskar");
