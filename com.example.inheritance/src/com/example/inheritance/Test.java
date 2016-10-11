@@ -8,6 +8,10 @@ public class Test {
 	public void methodOne(Object ob){
 		System.out.println("Object args");
 	}
+	
+	public void m1(){
+		System.err.println("m1()");
+	}
 	public static void main(String[] args) {
 		
 		// added second comment
