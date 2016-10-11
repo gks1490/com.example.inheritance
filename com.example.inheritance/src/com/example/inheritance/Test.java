@@ -4,6 +4,9 @@ public class Test {
 	public void methodOne(String args){
 		System.out.println("string args");
 	}
+	public void methodtwo(Object ob){
+		System.out.println("Object args2");
+	}
 	public void methodOne(Object ob){
 		System.out.println("Object args");
 	}
