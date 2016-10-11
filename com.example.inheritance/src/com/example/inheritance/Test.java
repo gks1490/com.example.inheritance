@@ -4,15 +4,11 @@ public class Test {
 	public void methodOne(String args){
 		System.out.println("string args");
 	}
-	public void methodtwo(Object ob){
-		System.out.println("Object args2");
-	}
+	
 	public void methodOne(Object ob){
 		System.out.println("Object args");
 	}
-	public void m1(){
-		
-	}
+	
 	public static void main(String[] args) {
 		Test t = new Test();
 		t.methodOne(new Object());
